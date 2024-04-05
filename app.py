@@ -3,7 +3,8 @@ import pandas as pd
 import pickle
 
 # Load the trained model
-model = pickle.load(open('C:/Users/91993/PycharmProjects/diabetes-svm-prediction/model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
+
 
 # Define the Streamlit app
 def main():
